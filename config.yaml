@@ -1,9 +1,0 @@
-redis:
-  host: redis-13959.c228.us-central1-1.gce.cloud.redislabs.com
-  port: 13959
-  password: aaa
-  key_origin: "sensor1_cache" #change to the key of the data you want to parse
-  key_destination: "sensor1" #change to the key where you want to store the parsed data
-
-service:
-  update_interval: 1 #change to the interval you want to update the data in seconds
