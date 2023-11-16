@@ -1,0 +1,9 @@
+redis:
+  host: redis.yourhost.example #change to your redis host
+  port: 6379 #change to your redis port
+  password: MIREALLYSECUREPASSWORD #change to your redis password
+  key_origin: "SENSOR_32A_BUFFER" #change to the key of the data you want to parse
+  key_destination: "SENSOR_32A" #change to the key where you want to store the parsed data
+
+service:
+  update_interval: 1 #change to the interval you want to update the data in seconds
